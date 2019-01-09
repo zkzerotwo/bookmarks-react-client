@@ -39,7 +39,7 @@ class AddBookmark extends Component {
   handleSubmit(e) {
     e.preventDefault();
     const bookmark = (({title, url, description, rating}) => ({title, url, description, rating}))(this.state);
-    const url ='http://localhost:8081/v3/bookmarks';
+    const url ='https://thinkful-list-api.herokuapp.com/v3/bookmarks';
     const options = {
       method: 'POST',
       body: JSON.stringify(bookmark),

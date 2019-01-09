@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const url = 'http://localhost:8081/v3/bookmarks';
+    const url = 'https://thinkful-list-api.herokuapp.com/v3/bookmarks';
     const options = {
       method: 'GET',
       headers: {
