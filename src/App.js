@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const url = 'https://thinkful-list-api.herokuapp.com/v3/bookmarks';
+    const url = 'https://tf-ed-bookmarks-api.herokuapp.com/v3/bookmarks';
     const options = {
       method: 'GET',
       headers: {
